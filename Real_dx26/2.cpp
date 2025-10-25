@@ -12,11 +12,11 @@ int main(){
 
     for(int i=0;i<str.size();i++){
 
-       char temp=str[i]-'0'+48+n;   //将字母顺移n位
+       int temp=str[i]+n;  
 
-       if(temp>'z'){temp=temp-'z'+'a'-1;}  //超过"z"的部分，重新从a数起
+       if(temp>'z'){temp=temp-'z'+'a'-1;}  
 
-       cout<<temp;
+       cout<<char(temp);
 
     }
 

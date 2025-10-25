@@ -26,11 +26,11 @@ int main(){
 
             for(int m=1;m<50;m++){
 
-                if(m+i>str.size()){break;}
+                if( m+i>str.size() ){break;}
 
                 if( m%2 == 0 ){str[i+m-1] = str[i+m-1]-'a'+'A';}
 
-                if(str[m+i] == ' '){break;}
+                if( str[m+i] == ' ' ){break;}
 
             }
         }
